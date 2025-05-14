@@ -1,0 +1,1926 @@
+
+=== Evaluation for file data/computed_insight_success_of_active_sellers.arff ===
+
+=== Evaluation for NaiveBayes ===
+
+Fold 1:
+Build Time: 138.665 ms
+Prediction Time: 5.697 ms
+Confusion Matrix:
+
+  a  b  c   <-- classified as
+ 25  0  0 |  a = High
+  0 16  0 |  b = Medium
+  0  0 55 |  c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 2:
+Build Time: 4.62 ms
+Prediction Time: 2.2 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  50   0   0 |   a = High
+   0  31   1 |   b = Medium
+   0   0 110 |   c = Low
+Accuracy: 99.479%
+Precision: 1
+Recall: 0.969
+F-Measure: 0.984
+
+Fold 3:
+Build Time: 4.669 ms
+Prediction Time: 1.768 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  75   0   0 |   a = High
+   0  46   2 |   b = Medium
+   0   0 165 |   c = Low
+Accuracy: 99.306%
+Precision: 1
+Recall: 0.958
+F-Measure: 0.979
+
+Fold 4:
+Build Time: 4.582 ms
+Prediction Time: 1.389 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 100   0   0 |   a = High
+   0  62   2 |   b = Medium
+   0   0 220 |   c = Low
+Accuracy: 99.479%
+Precision: 1
+Recall: 0.969
+F-Measure: 0.984
+
+Fold 5:
+Build Time: 3.91 ms
+Prediction Time: 1.228 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 125   0   0 |   a = High
+   0  78   2 |   b = Medium
+   0   0 275 |   c = Low
+Accuracy: 99.583%
+Precision: 1
+Recall: 0.975
+F-Measure: 0.987
+
+Fold 6:
+Build Time: 3.965 ms
+Prediction Time: 1.867 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 150   0   0 |   a = High
+   1  91   4 |   b = Medium
+   0   0 330 |   c = Low
+Accuracy: 99.132%
+Precision: 1
+Recall: 0.948
+F-Measure: 0.973
+
+Fold 7:
+Build Time: 4.159 ms
+Prediction Time: 0.865 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 175   0   0 |   a = High
+   1 107   4 |   b = Medium
+   0   0 385 |   c = Low
+Accuracy: 99.256%
+Precision: 1
+Recall: 0.955
+F-Measure: 0.977
+
+Fold 8:
+Build Time: 3.552 ms
+Prediction Time: 0.737 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 199   0   0 |   a = High
+   1 124   4 |   b = Medium
+   0   0 440 |   c = Low
+Accuracy: 99.349%
+Precision: 1
+Recall: 0.961
+F-Measure: 0.98
+
+Fold 9:
+Build Time: 3.604 ms
+Prediction Time: 0.714 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 223   0   0 |   a = High
+   1 140   4 |   b = Medium
+   0   0 495 |   c = Low
+Accuracy: 99.421%
+Precision: 1
+Recall: 0.966
+F-Measure: 0.982
+
+Fold 10:
+Build Time: 2.506 ms
+Prediction Time: 1.083 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 247   0   0 |   a = High
+   1 156   4 |   b = Medium
+   0   0 550 |   c = Low
+Accuracy: 99.478%
+Precision: 1
+Recall: 0.969
+F-Measure: 0.984
+
+Summary for NaiveBayes:
+Average Build Time: 17.423 ms
+Average Prediction Time: 1.755 ms
+Overall Accuracy: 99.478%
+Overall Precision: 0.995
+Overall Recall: 0.995
+Overall F-Measure: 0.995
+Detailed Summary:
+
+Correctly Classified Instances         953               99.4781 %
+Incorrectly Classified Instances         5                0.5219 %
+Kappa statistic                          0.9909
+Mean absolute error                      0.0185
+Root mean squared error                  0.0737
+Relative absolute error                  4.8062 %
+Root relative squared error             16.8282 %
+Total Number of Instances              958     
+
+=== Evaluation for IBk ===
+
+Fold 1:
+Build Time: 1.429 ms
+Prediction Time: 39.928 ms
+Confusion Matrix:
+
+  a  b  c   <-- classified as
+ 20  5  0 |  a = High
+  4  7  5 |  b = Medium
+  0  0 55 |  c = Low
+Accuracy: 85.417%
+Precision: 0.583
+Recall: 0.438
+F-Measure: 0.5
+
+Fold 2:
+Build Time: 1.056 ms
+Prediction Time: 11.454 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  44   6   0 |   a = High
+   7  18   7 |   b = Medium
+   0   3 107 |   c = Low
+Accuracy: 88.021%
+Precision: 0.667
+Recall: 0.562
+F-Measure: 0.61
+
+Fold 3:
+Build Time: 0.864 ms
+Prediction Time: 10.441 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  66   9   0 |   a = High
+   7  30  11 |   b = Medium
+   0   3 162 |   c = Low
+Accuracy: 89.583%
+Precision: 0.714
+Recall: 0.625
+F-Measure: 0.667
+
+Fold 4:
+Build Time: 4.093 ms
+Prediction Time: 10.672 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  88  12   0 |   a = High
+  10  41  13 |   b = Medium
+   0   4 216 |   c = Low
+Accuracy: 89.844%
+Precision: 0.719
+Recall: 0.641
+F-Measure: 0.678
+
+Fold 5:
+Build Time: 0.892 ms
+Prediction Time: 9.926 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 111  14   0 |   a = High
+  11  51  18 |   b = Medium
+   0   6 269 |   c = Low
+Accuracy: 89.792%
+Precision: 0.718
+Recall: 0.637
+F-Measure: 0.675
+
+Fold 6:
+Build Time: 0.838 ms
+Prediction Time: 10.639 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 134  16   0 |   a = High
+  13  61  22 |   b = Medium
+   0   8 322 |   c = Low
+Accuracy: 89.757%
+Precision: 0.718
+Recall: 0.635
+F-Measure: 0.674
+
+Fold 7:
+Build Time: 1.092 ms
+Prediction Time: 7.107 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 156  19   0 |   a = High
+  15  72  25 |   b = Medium
+   0   8 377 |   c = Low
+Accuracy: 90.03%
+Precision: 0.727
+Recall: 0.643
+F-Measure: 0.682
+
+Fold 8:
+Build Time: 0.75 ms
+Prediction Time: 6.834 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 176  23   0 |   a = High
+  19  83  27 |   b = Medium
+   0   9 431 |   c = Low
+Accuracy: 89.844%
+Precision: 0.722
+Recall: 0.643
+F-Measure: 0.68
+
+Fold 9:
+Build Time: 0.679 ms
+Prediction Time: 6.585 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 196  27   0 |   a = High
+  22  93  30 |   b = Medium
+   0   9 486 |   c = Low
+Accuracy: 89.803%
+Precision: 0.721
+Recall: 0.641
+F-Measure: 0.679
+
+Fold 10:
+Build Time: 1.159 ms
+Prediction Time: 9.403 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 219  28   0 |   a = High
+  28 103  30 |   b = Medium
+   0  10 540 |   c = Low
+Accuracy: 89.979%
+Precision: 0.73
+Recall: 0.64
+F-Measure: 0.682
+
+Summary for IBk:
+Average Build Time: 1.285 ms
+Average Prediction Time: 12.299 ms
+Overall Accuracy: 89.979%
+Overall Precision: 0.895
+Overall Recall: 0.9
+Overall F-Measure: 0.897
+Detailed Summary:
+
+Correctly Classified Instances         862               89.9791 %
+Incorrectly Classified Instances        96               10.0209 %
+Kappa statistic                          0.8233
+Mean absolute error                      0.0981
+Root mean squared error                  0.223 
+Relative absolute error                 25.5445 %
+Root relative squared error             50.9132 %
+Total Number of Instances              958     
+
+=== Evaluation for RandomForest ===
+
+Fold 1:
+Build Time: 201.145 ms
+Prediction Time: 6.495 ms
+Confusion Matrix:
+
+  a  b  c   <-- classified as
+ 25  0  0 |  a = High
+  0 16  0 |  b = Medium
+  0  0 55 |  c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 2:
+Build Time: 80.092 ms
+Prediction Time: 1.861 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  50   0   0 |   a = High
+   0  32   0 |   b = Medium
+   0   0 110 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 3:
+Build Time: 76.34 ms
+Prediction Time: 1.717 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  75   0   0 |   a = High
+   0  48   0 |   b = Medium
+   0   0 165 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 4:
+Build Time: 61.111 ms
+Prediction Time: 1.865 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 100   0   0 |   a = High
+   0  64   0 |   b = Medium
+   0   0 220 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 5:
+Build Time: 66.328 ms
+Prediction Time: 1.072 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 125   0   0 |   a = High
+   0  80   0 |   b = Medium
+   0   0 275 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 6:
+Build Time: 56.341 ms
+Prediction Time: 0.961 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 150   0   0 |   a = High
+   0  96   0 |   b = Medium
+   0   0 330 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 7:
+Build Time: 43.758 ms
+Prediction Time: 0.916 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 175   0   0 |   a = High
+   0 112   0 |   b = Medium
+   0   0 385 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 8:
+Build Time: 40.714 ms
+Prediction Time: 0.887 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 199   0   0 |   a = High
+   0 129   0 |   b = Medium
+   0   0 440 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 9:
+Build Time: 43.798 ms
+Prediction Time: 0.897 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 223   0   0 |   a = High
+   0 145   0 |   b = Medium
+   0   0 495 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 10:
+Build Time: 46.503 ms
+Prediction Time: 0.904 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 247   0   0 |   a = High
+   0 161   0 |   b = Medium
+   0   0 550 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Summary for RandomForest:
+Average Build Time: 71.613 ms
+Average Prediction Time: 1.758 ms
+Overall Accuracy: 100%
+Overall Precision: 1
+Overall Recall: 1
+Overall F-Measure: 1
+Detailed Summary:
+
+Correctly Classified Instances         958              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0056
+Root mean squared error                  0.0196
+Relative absolute error                  1.4463 %
+Root relative squared error              4.4734 %
+Total Number of Instances              958     
+
+=== Evaluation for J48 ===
+
+Fold 1:
+Build Time: 14.405 ms
+Prediction Time: 0.347 ms
+Confusion Matrix:
+
+  a  b  c   <-- classified as
+ 25  0  0 |  a = High
+  0 16  0 |  b = Medium
+  0  0 55 |  c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 2:
+Build Time: 8.291 ms
+Prediction Time: 0.256 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  50   0   0 |   a = High
+   0  32   0 |   b = Medium
+   0   0 110 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 3:
+Build Time: 6.551 ms
+Prediction Time: 0.165 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  75   0   0 |   a = High
+   0  48   0 |   b = Medium
+   0   0 165 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 4:
+Build Time: 4.947 ms
+Prediction Time: 0.2 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 100   0   0 |   a = High
+   0  64   0 |   b = Medium
+   0   0 220 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 5:
+Build Time: 3.936 ms
+Prediction Time: 0.155 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 125   0   0 |   a = High
+   0  80   0 |   b = Medium
+   0   0 275 |   c = Low
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 6:
+Build Time: 3.008 ms
+Prediction Time: 0.122 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 150   0   0 |   a = High
+   1  95   0 |   b = Medium
+   0   0 330 |   c = Low
+Accuracy: 99.826%
+Precision: 1
+Recall: 0.99
+F-Measure: 0.995
+
+Fold 7:
+Build Time: 3.825 ms
+Prediction Time: 0.203 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 175   0   0 |   a = High
+   1 111   0 |   b = Medium
+   0   0 385 |   c = Low
+Accuracy: 99.851%
+Precision: 1
+Recall: 0.991
+F-Measure: 0.996
+
+Fold 8:
+Build Time: 2.957 ms
+Prediction Time: 0.096 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 199   0   0 |   a = High
+   1 128   0 |   b = Medium
+   0   0 440 |   c = Low
+Accuracy: 99.87%
+Precision: 1
+Recall: 0.992
+F-Measure: 0.996
+
+Fold 9:
+Build Time: 3.072 ms
+Prediction Time: 0.216 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 223   0   0 |   a = High
+   1 144   0 |   b = Medium
+   0   0 495 |   c = Low
+Accuracy: 99.884%
+Precision: 1
+Recall: 0.993
+F-Measure: 0.997
+
+Fold 10:
+Build Time: 3.567 ms
+Prediction Time: 1.5 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 247   0   0 |   a = High
+   1 160   0 |   b = Medium
+   0   0 550 |   c = Low
+Accuracy: 99.896%
+Precision: 1
+Recall: 0.994
+F-Measure: 0.997
+
+Summary for J48:
+Average Build Time: 5.456 ms
+Average Prediction Time: 0.326 ms
+Overall Accuracy: 99.896%
+Overall Precision: 0.999
+Overall Recall: 0.999
+Overall F-Measure: 0.999
+Detailed Summary:
+
+Correctly Classified Instances         957               99.8956 %
+Incorrectly Classified Instances         1                0.1044 %
+Kappa statistic                          0.9982
+Mean absolute error                      0.0007
+Root mean squared error                  0.0264
+Relative absolute error                  0.1812 %
+Root relative squared error              6.022  %
+Total Number of Instances              958     
+
+=== Evaluation for file data/summer_products_rating_group_label.arff ===
+
+=== Evaluation for NaiveBayes ===
+
+Fold 1:
+Build Time: 2.684 ms
+Prediction Time: 1.102 ms
+Confusion Matrix:
+
+  a  b  c   <-- classified as
+ 33 14  3 |  a = Medium
+  6 48  0 |  b = Low
+  6  0 44 |  c = High
+Accuracy: 81.169%
+Precision: 0.774
+Recall: 0.889
+F-Measure: 0.828
+
+Fold 2:
+Build Time: 2.917 ms
+Prediction Time: 1.077 ms
+Confusion Matrix:
+
+  a  b  c   <-- classified as
+ 67 25  8 |  a = Medium
+ 14 93  1 |  b = Low
+ 14  0 86 |  c = High
+Accuracy: 79.87%
+Precision: 0.788
+Recall: 0.861
+F-Measure: 0.823
+
+Fold 3:
+Build Time: 2.481 ms
+Prediction Time: 1.072 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 102  34  14 |   a = Medium
+  22 138   2 |   b = Low
+  22   0 128 |   c = High
+Accuracy: 79.654%
+Precision: 0.802
+Recall: 0.852
+F-Measure: 0.826
+
+Fold 4:
+Build Time: 3.388 ms
+Prediction Time: 3.267 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 129  48  24 |   a = Medium
+  25 184   6 |   b = Low
+  32   0 168 |   c = High
+Accuracy: 78.084%
+Precision: 0.793
+Recall: 0.856
+F-Measure: 0.823
+
+Fold 5:
+Build Time: 3.907 ms
+Prediction Time: 1.644 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 164  58  30 |   a = Medium
+  28 233   7 |   b = Low
+  43   0 207 |   c = High
+Accuracy: 78.442%
+Precision: 0.801
+Recall: 0.869
+F-Measure: 0.834
+
+Fold 6:
+Build Time: 2.738 ms
+Prediction Time: 3.065 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 203  70  30 |   a = Medium
+  33 280   8 |   b = Low
+  53   3 244 |   c = High
+Accuracy: 78.68%
+Precision: 0.793
+Recall: 0.872
+F-Measure: 0.831
+
+Fold 7:
+Build Time: 2.392 ms
+Prediction Time: 1.279 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 241  80  33 |   a = Medium
+  38 327   9 |   b = Low
+  61   4 285 |   c = High
+Accuracy: 79.128%
+Precision: 0.796
+Recall: 0.874
+F-Measure: 0.833
+
+Fold 8:
+Build Time: 2.388 ms
+Prediction Time: 1.183 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 272  96  36 |   a = Medium
+  42 376   9 |   b = Low
+  69   5 327 |   c = High
+Accuracy: 79.14%
+Precision: 0.788
+Recall: 0.881
+F-Measure: 0.832
+
+Fold 9:
+Build Time: 2.359 ms
+Prediction Time: 1.231 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 313 104  37 |   a = Medium
+  45 426   9 |   b = Low
+  80   7 365 |   c = High
+Accuracy: 79.654%
+Precision: 0.793
+Recall: 0.887
+F-Measure: 0.838
+
+Fold 10:
+Build Time: 2.37 ms
+Prediction Time: 1.266 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 346 116  42 |   a = Medium
+  50 474   9 |   b = Low
+  86  10 406 |   c = High
+Accuracy: 79.662%
+Precision: 0.79
+Recall: 0.889
+F-Measure: 0.837
+
+Summary for NaiveBayes:
+Average Build Time: 2.762 ms
+Average Prediction Time: 1.619 ms
+Overall Accuracy: 79.662%
+Overall Precision: 0.798
+Overall Recall: 0.797
+Overall F-Measure: 0.796
+Detailed Summary:
+
+Correctly Classified Instances        1226               79.6621 %
+Incorrectly Classified Instances       313               20.3379 %
+Kappa statistic                          0.6944
+Mean absolute error                      0.1654
+Root mean squared error                  0.3189
+Relative absolute error                 37.2371 %
+Root relative squared error             67.656  %
+Total Number of Instances             1539     
+
+=== Evaluation for IBk ===
+
+Fold 1:
+Build Time: 0.322 ms
+Prediction Time: 22.291 ms
+Confusion Matrix:
+
+  a  b  c   <-- classified as
+ 32 14  4 |  a = Medium
+ 19 33  2 |  b = Low
+ 26  4 20 |  c = High
+Accuracy: 55.195%
+Precision: 0.647
+Recall: 0.611
+F-Measure: 0.629
+
+Fold 2:
+Build Time: 0.339 ms
+Prediction Time: 21.696 ms
+Confusion Matrix:
+
+  a  b  c   <-- classified as
+ 61 27 12 |  a = Medium
+ 37 69  2 |  b = Low
+ 45  9 46 |  c = High
+Accuracy: 57.143%
+Precision: 0.657
+Recall: 0.639
+F-Measure: 0.648
+
+Fold 3:
+Build Time: 0.35 ms
+Prediction Time: 18.816 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  99  35  16 |   a = Medium
+  57 102   3 |   b = Low
+  62  12  76 |   c = High
+Accuracy: 59.957%
+Precision: 0.685
+Recall: 0.63
+F-Measure: 0.656
+
+Fold 4:
+Build Time: 0.348 ms
+Prediction Time: 13.81 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 129  53  19 |   a = Medium
+  74 138   3 |   b = Low
+  81  20  99 |   c = High
+Accuracy: 59.416%
+Precision: 0.654
+Recall: 0.642
+F-Measure: 0.648
+
+Fold 5:
+Build Time: 0.428 ms
+Prediction Time: 13.751 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 155  70  27 |   a = Medium
+  90 174   4 |   b = Low
+ 106  23 121 |   c = High
+Accuracy: 58.442%
+Precision: 0.652
+Recall: 0.649
+F-Measure: 0.65
+
+Fold 6:
+Build Time: 0.335 ms
+Prediction Time: 13.391 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 191  82  30 |   a = Medium
+ 109 207   5 |   b = Low
+ 129  26 145 |   c = High
+Accuracy: 58.766%
+Precision: 0.657
+Recall: 0.645
+F-Measure: 0.651
+
+Fold 7:
+Build Time: 0.321 ms
+Prediction Time: 13.692 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 228  89  37 |   a = Medium
+ 129 240   5 |   b = Low
+ 144  33 173 |   c = High
+Accuracy: 59.462%
+Precision: 0.663
+Recall: 0.642
+F-Measure: 0.652
+
+Fold 8:
+Build Time: 0.315 ms
+Prediction Time: 12.991 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 264  97  43 |   a = Medium
+ 149 272   6 |   b = Low
+ 163  35 203 |   c = High
+Accuracy: 59.984%
+Precision: 0.673
+Recall: 0.637
+F-Measure: 0.655
+
+Fold 9:
+Build Time: 0.306 ms
+Prediction Time: 12.916 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 302 108  44 |   a = Medium
+ 168 306   6 |   b = Low
+ 181  38 233 |   c = High
+Accuracy: 60.678%
+Precision: 0.677
+Recall: 0.637
+F-Measure: 0.657
+
+Fold 10:
+Build Time: 0.364 ms
+Prediction Time: 12.541 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 335 117  52 |   a = Medium
+ 185 341   7 |   b = Low
+ 202  39 261 |   c = High
+Accuracy: 60.884%
+Precision: 0.686
+Recall: 0.64
+F-Measure: 0.662
+
+Summary for IBk:
+Average Build Time: 0.343 ms
+Average Prediction Time: 15.59 ms
+Overall Accuracy: 60.884%
+Overall Precision: 0.656
+Overall Recall: 0.609
+Overall F-Measure: 0.615
+Detailed Summary:
+
+Correctly Classified Instances         937               60.8837 %
+Incorrectly Classified Instances       602               39.1163 %
+Kappa statistic                          0.4133
+Mean absolute error                      0.3071
+Root mean squared error                  0.4112
+Relative absolute error                 69.1235 %
+Root relative squared error             87.2537 %
+Total Number of Instances             1539     
+
+=== Evaluation for RandomForest ===
+
+Fold 1:
+Build Time: 146.029 ms
+Prediction Time: 2.924 ms
+Confusion Matrix:
+
+  a  b  c   <-- classified as
+ 50  0  0 |  a = Medium
+  0 54  0 |  b = Low
+  0  0 50 |  c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 2:
+Build Time: 141.211 ms
+Prediction Time: 2.29 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 100   0   0 |   a = Medium
+   0 108   0 |   b = Low
+   0   0 100 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 3:
+Build Time: 144.771 ms
+Prediction Time: 1.436 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 150   0   0 |   a = Medium
+   0 162   0 |   b = Low
+   0   0 150 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 4:
+Build Time: 142.624 ms
+Prediction Time: 3.114 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 201   0   0 |   a = Medium
+   0 215   0 |   b = Low
+   0   0 200 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 5:
+Build Time: 149.219 ms
+Prediction Time: 2.011 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 252   0   0 |   a = Medium
+   0 268   0 |   b = Low
+   0   0 250 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 6:
+Build Time: 150.3 ms
+Prediction Time: 3.371 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 303   0   0 |   a = Medium
+   0 321   0 |   b = Low
+   0   0 300 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 7:
+Build Time: 156.763 ms
+Prediction Time: 2.582 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 354   0   0 |   a = Medium
+   0 374   0 |   b = Low
+   0   0 350 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 8:
+Build Time: 155.951 ms
+Prediction Time: 1.657 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 404   0   0 |   a = Medium
+   0 427   0 |   b = Low
+   0   0 401 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 9:
+Build Time: 147.802 ms
+Prediction Time: 3.078 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 454   0   0 |   a = Medium
+   0 480   0 |   b = Low
+   0   0 452 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 10:
+Build Time: 146.041 ms
+Prediction Time: 2.114 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 504   0   0 |   a = Medium
+   0 533   0 |   b = Low
+   0   0 502 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Summary for RandomForest:
+Average Build Time: 148.071 ms
+Average Prediction Time: 2.458 ms
+Overall Accuracy: 100%
+Overall Precision: 1
+Overall Recall: 1
+Overall F-Measure: 1
+Detailed Summary:
+
+Correctly Classified Instances        1539              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0429
+Root mean squared error                  0.0663
+Relative absolute error                  9.645  %
+Root relative squared error             14.0728 %
+Total Number of Instances             1539     
+
+=== Evaluation for J48 ===
+
+Fold 1:
+Build Time: 8.266 ms
+Prediction Time: 0.055 ms
+Confusion Matrix:
+
+  a  b  c   <-- classified as
+ 50  0  0 |  a = Medium
+  0 54  0 |  b = Low
+  0  0 50 |  c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 2:
+Build Time: 8.457 ms
+Prediction Time: 0.059 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 100   0   0 |   a = Medium
+   0 108   0 |   b = Low
+   0   0 100 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 3:
+Build Time: 8.591 ms
+Prediction Time: 0.049 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 150   0   0 |   a = Medium
+   0 162   0 |   b = Low
+   0   0 150 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 4:
+Build Time: 8.434 ms
+Prediction Time: 0.049 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 201   0   0 |   a = Medium
+   0 215   0 |   b = Low
+   0   0 200 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 5:
+Build Time: 8.058 ms
+Prediction Time: 0.051 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 252   0   0 |   a = Medium
+   0 268   0 |   b = Low
+   0   0 250 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 6:
+Build Time: 7.773 ms
+Prediction Time: 0.055 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 303   0   0 |   a = Medium
+   0 321   0 |   b = Low
+   0   0 300 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 7:
+Build Time: 7.595 ms
+Prediction Time: 0.048 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 354   0   0 |   a = Medium
+   0 374   0 |   b = Low
+   0   0 350 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 8:
+Build Time: 9.208 ms
+Prediction Time: 0.065 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 404   0   0 |   a = Medium
+   0 427   0 |   b = Low
+   0   0 401 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 9:
+Build Time: 7.209 ms
+Prediction Time: 0.062 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 454   0   0 |   a = Medium
+   0 480   0 |   b = Low
+   0   0 452 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 10:
+Build Time: 7.653 ms
+Prediction Time: 0.05 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 504   0   0 |   a = Medium
+   0 533   0 |   b = Low
+   0   0 502 |   c = High
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Summary for J48:
+Average Build Time: 8.125 ms
+Average Prediction Time: 0.054 ms
+Overall Accuracy: 100%
+Overall Precision: 1
+Overall Recall: 1
+Overall F-Measure: 1
+Detailed Summary:
+
+Correctly Classified Instances        1539              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances             1539     
+
+=== Evaluation for file data/unique-categories.sorted-by-count.arff ===
+
+=== Evaluation for NaiveBayes ===
+
+Fold 1:
+Build Time: 2.291 ms
+Prediction Time: 0.32 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  32   1   0 |   a = Popular
+   0  87   0 |   b = Medium
+   0   0 142 |   c = Rare
+Accuracy: 99.618%
+Precision: 0.989
+Recall: 1
+F-Measure: 0.994
+
+Fold 2:
+Build Time: 1.948 ms
+Prediction Time: 0.9 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  59   7   0 |   a = Popular
+   0 174   0 |   b = Medium
+   0   0 284 |   c = Rare
+Accuracy: 98.664%
+Precision: 0.961
+Recall: 1
+F-Measure: 0.98
+
+Fold 3:
+Build Time: 1.897 ms
+Prediction Time: 0.319 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  90   9   0 |   a = Popular
+   0 261   0 |   b = Medium
+   0   0 426 |   c = Rare
+Accuracy: 98.855%
+Precision: 0.967
+Recall: 1
+F-Measure: 0.983
+
+Fold 4:
+Build Time: 1.843 ms
+Prediction Time: 0.326 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 123   9   0 |   a = Popular
+   0 348   0 |   b = Medium
+   0   0 568 |   c = Rare
+Accuracy: 99.141%
+Precision: 0.975
+Recall: 1
+F-Measure: 0.987
+
+Fold 5:
+Build Time: 1.836 ms
+Prediction Time: 0.305 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 153  12   0 |   a = Popular
+   0 435   0 |   b = Medium
+   0   0 710 |   c = Rare
+Accuracy: 99.084%
+Precision: 0.973
+Recall: 1
+F-Measure: 0.986
+
+Fold 6:
+Build Time: 1.791 ms
+Prediction Time: 0.296 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 184  14   0 |   a = Popular
+   0 522   0 |   b = Medium
+   0   0 852 |   c = Rare
+Accuracy: 99.109%
+Precision: 0.974
+Recall: 1
+F-Measure: 0.987
+
+Fold 7:
+Build Time: 1.787 ms
+Prediction Time: 0.294 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 215  17   0 |   a = Popular
+   0 609   0 |   b = Medium
+   0   0 993 |   c = Rare
+Accuracy: 99.073%
+Precision: 0.973
+Recall: 1
+F-Measure: 0.986
+
+Fold 8:
+Build Time: 1.812 ms
+Prediction Time: 0.354 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+  247   19    0 |    a = Popular
+    0  695    0 |    b = Medium
+    0    0 1135 |    c = Rare
+Accuracy: 99.094%
+Precision: 0.973
+Recall: 1
+F-Measure: 0.987
+
+Fold 9:
+Build Time: 1.81 ms
+Prediction Time: 0.33 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+  276   24    0 |    a = Popular
+    0  781    0 |    b = Medium
+    0    0 1277 |    c = Rare
+Accuracy: 98.982%
+Precision: 0.97
+Recall: 1
+F-Measure: 0.985
+
+Fold 10:
+Build Time: 1.768 ms
+Prediction Time: 0.354 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+  310   24    0 |    a = Popular
+    0  867    0 |    b = Medium
+    0    0 1419 |    c = Rare
+Accuracy: 99.084%
+Precision: 0.973
+Recall: 1
+F-Measure: 0.986
+
+Summary for NaiveBayes:
+Average Build Time: 1.878 ms
+Average Prediction Time: 0.38 ms
+Overall Accuracy: 99.084%
+Overall Precision: 0.991
+Overall Recall: 0.991
+Overall F-Measure: 0.991
+Detailed Summary:
+
+Correctly Classified Instances        2596               99.084  %
+Incorrectly Classified Instances        24                0.916  %
+Kappa statistic                          0.9842
+Mean absolute error                      0.0151
+Root mean squared error                  0.067 
+Relative absolute error                  3.8878 %
+Root relative squared error             15.2237 %
+Total Number of Instances             2620     
+
+=== Evaluation for IBk ===
+
+Fold 1:
+Build Time: 0.561 ms
+Prediction Time: 75.059 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  33   0   0 |   a = Popular
+   0  87   0 |   b = Medium
+   0   0 142 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 2:
+Build Time: 0.532 ms
+Prediction Time: 39.568 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  66   0   0 |   a = Popular
+   0 174   0 |   b = Medium
+   0   0 284 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 3:
+Build Time: 0.806 ms
+Prediction Time: 46.382 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  99   0   0 |   a = Popular
+   0 261   0 |   b = Medium
+   0   0 426 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 4:
+Build Time: 0.546 ms
+Prediction Time: 42.606 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 132   0   0 |   a = Popular
+   0 348   0 |   b = Medium
+   0   0 568 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 5:
+Build Time: 0.551 ms
+Prediction Time: 43.927 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 165   0   0 |   a = Popular
+   0 435   0 |   b = Medium
+   0   0 710 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 6:
+Build Time: 0.522 ms
+Prediction Time: 21.401 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 198   0   0 |   a = Popular
+   0 522   0 |   b = Medium
+   0   0 852 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 7:
+Build Time: 0.545 ms
+Prediction Time: 20.577 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 232   0   0 |   a = Popular
+   0 609   0 |   b = Medium
+   0   0 993 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 8:
+Build Time: 0.543 ms
+Prediction Time: 20.453 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+  266    0    0 |    a = Popular
+    0  695    0 |    b = Medium
+    0    0 1135 |    c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 9:
+Build Time: 0.516 ms
+Prediction Time: 20.278 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+  300    0    0 |    a = Popular
+    0  781    0 |    b = Medium
+    0    0 1277 |    c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 10:
+Build Time: 0.514 ms
+Prediction Time: 21.049 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+  334    0    0 |    a = Popular
+    0  867    0 |    b = Medium
+    0    0 1419 |    c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Summary for IBk:
+Average Build Time: 0.564 ms
+Average Prediction Time: 35.13 ms
+Overall Accuracy: 100%
+Overall Precision: 1
+Overall Recall: 1
+Overall F-Measure: 1
+Detailed Summary:
+
+Correctly Classified Instances        2620              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0.0029 %
+Root relative squared error              0.007  %
+Total Number of Instances             2620     
+
+=== Evaluation for RandomForest ===
+
+Fold 1:
+Build Time: 326.054 ms
+Prediction Time: 6.485 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+   0   0  33 |   a = Popular
+   0  87   0 |   b = Medium
+   0   0 142 |   c = Rare
+Accuracy: 87.405%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 2:
+Build Time: 294.924 ms
+Prediction Time: 3.669 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+   0   0  66 |   a = Popular
+   0 174   0 |   b = Medium
+   0   0 284 |   c = Rare
+Accuracy: 87.405%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 3:
+Build Time: 197.048 ms
+Prediction Time: 3.478 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+   0   0  99 |   a = Popular
+   0 261   0 |   b = Medium
+   0   0 426 |   c = Rare
+Accuracy: 87.405%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 4:
+Build Time: 297.894 ms
+Prediction Time: 3.355 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+   0   0 132 |   a = Popular
+   0 348   0 |   b = Medium
+   0   0 568 |   c = Rare
+Accuracy: 87.405%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 5:
+Build Time: 187.818 ms
+Prediction Time: 3.372 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  33   0 132 |   a = Popular
+   0 435   0 |   b = Medium
+   0   0 710 |   c = Rare
+Accuracy: 89.924%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 6:
+Build Time: 172.524 ms
+Prediction Time: 3.122 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  66   0 132 |   a = Popular
+   0 522   0 |   b = Medium
+   0   0 852 |   c = Rare
+Accuracy: 91.603%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 7:
+Build Time: 175.157 ms
+Prediction Time: 3.307 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  66   0 166 |   a = Popular
+   0 609   0 |   b = Medium
+   0   0 993 |   c = Rare
+Accuracy: 90.949%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 8:
+Build Time: 187.595 ms
+Prediction Time: 3.673 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+   66    0  200 |    a = Popular
+    0  695    0 |    b = Medium
+    0    0 1135 |    c = Rare
+Accuracy: 90.458%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 9:
+Build Time: 188.222 ms
+Prediction Time: 4.197 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+   66    0  234 |    a = Popular
+    0  781    0 |    b = Medium
+    0    0 1277 |    c = Rare
+Accuracy: 90.076%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 10:
+Build Time: 211.769 ms
+Prediction Time: 3.723 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+   66    0  268 |    a = Popular
+    0  867    0 |    b = Medium
+    0    0 1419 |    c = Rare
+Accuracy: 89.771%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Summary for RandomForest:
+Average Build Time: 223.9 ms
+Average Prediction Time: 3.838 ms
+Overall Accuracy: 89.771%
+Overall Precision: 0.914
+Overall Recall: 0.898
+Overall F-Measure: 0.868
+Detailed Summary:
+
+Correctly Classified Instances        2352               89.771  %
+Incorrectly Classified Instances       268               10.229  %
+Kappa statistic                          0.8101
+Mean absolute error                      0.2721
+Root mean squared error                  0.3106
+Relative absolute error                 70.2459 %
+Root relative squared error             70.5819 %
+Total Number of Instances             2620     
+
+=== Evaluation for J48 ===
+
+Fold 1:
+Build Time: 2.112 ms
+Prediction Time: 0.082 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  33   0   0 |   a = Popular
+   0  87   0 |   b = Medium
+   0   0 142 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 2:
+Build Time: 2.116 ms
+Prediction Time: 0.087 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  66   0   0 |   a = Popular
+   0 174   0 |   b = Medium
+   0   0 284 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 3:
+Build Time: 2.173 ms
+Prediction Time: 0.072 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+  99   0   0 |   a = Popular
+   0 261   0 |   b = Medium
+   0   0 426 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 4:
+Build Time: 2.087 ms
+Prediction Time: 0.073 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 132   0   0 |   a = Popular
+   0 348   0 |   b = Medium
+   0   0 568 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 5:
+Build Time: 1.858 ms
+Prediction Time: 0.077 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 165   0   0 |   a = Popular
+   0 435   0 |   b = Medium
+   0   0 710 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 6:
+Build Time: 1.694 ms
+Prediction Time: 0.07 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 198   0   0 |   a = Popular
+   0 522   0 |   b = Medium
+   0   0 852 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 7:
+Build Time: 1.496 ms
+Prediction Time: 0.064 ms
+Confusion Matrix:
+
+   a   b   c   <-- classified as
+ 232   0   0 |   a = Popular
+   0 609   0 |   b = Medium
+   0   0 993 |   c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 8:
+Build Time: 1.508 ms
+Prediction Time: 0.071 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+  266    0    0 |    a = Popular
+    0  695    0 |    b = Medium
+    0    0 1135 |    c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 9:
+Build Time: 1.565 ms
+Prediction Time: 0.102 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+  300    0    0 |    a = Popular
+    0  781    0 |    b = Medium
+    0    0 1277 |    c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Fold 10:
+Build Time: 1.585 ms
+Prediction Time: 0.076 ms
+Confusion Matrix:
+
+    a    b    c   <-- classified as
+  334    0    0 |    a = Popular
+    0  867    0 |    b = Medium
+    0    0 1419 |    c = Rare
+Accuracy: 100%
+Precision: 1
+Recall: 1
+F-Measure: 1
+
+Summary for J48:
+Average Build Time: 1.819 ms
+Average Prediction Time: 0.077 ms
+Overall Accuracy: 100%
+Overall Precision: 1
+Overall Recall: 1
+Overall F-Measure: 1
+Detailed Summary:
+
+Correctly Classified Instances        2620              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances             2620     
