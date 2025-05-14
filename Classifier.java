@@ -1,43 +1,72 @@
 package DataMining;
 
-import weka.core.Instances;
-import weka.core.converters.ConverterUtils.DataSource;
-import weka.classifiers.trees.J48;
-import weka.classifiers.bayes.NaiveBayes;
+import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
+import weka.classifiers.bayes.NaiveBayes;
+import weka.classifiers.trees.J48;
+import weka.core.Instances;
+import weka.core.converters.ArffLoader;
+import weka.filters.Filter;
+import weka.filters.supervised.instance.Resample;
+
+import java.io.File;
 import java.util.Random;
 
-public class Classifier {
-    public static void main(String[] args) throws Exception {
-        // Read Data
-        DataSource source = new DataSource("computed_insight_success_of_active_sellers.arff");
-        Instances data = source.getDataSet();
-        data.setClassIndex(data.numAttributes() - 1);
+public class J48&NaiveBayes {
 
-        // ==== J48 ====
-        System.out.println("=== J48 ===");
-        long startJ48 = System.currentTimeMillis();
-        J48 j48 = new J48();
-        Evaluation evalJ48 = new Evaluation(data);
-        evalJ48.crossValidateModel(j48, data, 10, new Random(1));
-        long endJ48 = System.currentTimeMillis();
+    public static void main(String[] args) {
+        try {
+            // 1. Load the ARFF file
+            ArffLoader loader = new ArffLoader();
+            loader.setFile(new File("filename.arff"));
+            Instances data = loader.getDataSet();
+            data.setClassIndex(data.numAttributes() - 1);
 
-        System.out.println(evalJ48.toSummaryString());
-        System.out.println(evalJ48.toClassDetailsString()); // Precision, Recall, F-measure
-        System.out.println(evalJ48.toMatrixString());       // Confusion Matrix
-        System.out.println("Runtime: " + (endJ48 - startJ48) + " ms\n");
+            // 2. Split the data into training and testing sets using Resample
+            Resample resampleTrain = new Resample();
+            resampleTrain.setSampleSizePercent(70);
+            resampleTrain.setNoReplacement(true);
+            resampleTrain.setRandomSeed(1);  // Fixed seed for reproducibility
+            resampleTrain.setInputFormat(data);
+            Instances trainData = Filter.useFilter(data, resampleTrain);
 
-        // ==== NaiveBayes ====
-        System.out.println("=== NaiveBayes ===");
-        long startNB = System.currentTimeMillis();
-        NaiveBayes nb = new NaiveBayes();
-        Evaluation evalNB = new Evaluation(data);
-        evalNB.crossValidateModel(nb, data, 10, new Random(1));
-        long endNB = System.currentTimeMillis();
+            Resample resampleTest = new Resample();
+            resampleTest.setSampleSizePercent(30);
+            resampleTest.setNoReplacement(true);
+            resampleTest.setInvertSelection(true); // Use remaining data for testing
+            resampleTest.setRandomSeed(1);  // Same seed for consistency
+            resampleTest.setInputFormat(data);
+            Instances testData = Filter.useFilter(data, resampleTest);
 
-        System.out.println(evalNB.toSummaryString());
-        System.out.println(evalNB.toClassDetailsString());
-        System.out.println(evalNB.toMatrixString());
-        System.out.println("Runtime: " + (endNB - startNB) + " ms");
+            System.out.println("Training instances: " + trainData.numInstances());
+            System.out.println("Testing instances: " + testData.numInstances());
+
+            // --- J48 Decision Tree ---
+            System.out.println("\n--- J48 Decision Tree ---");
+            J48 j48 = new J48();
+            j48.buildClassifier(trainData);
+
+            Evaluation evalJ48 = new Evaluation(trainData);
+            evalJ48.evaluateModel(j48, testData);
+
+            System.out.println(evalJ48.toSummaryString("J48 Results:\n======\n", false));
+            System.out.println(evalJ48.toClassDetailsString("J48 Class Details:\n======\n"));
+            System.out.println(evalJ48.toMatrixString("J48 Confusion Matrix:\n======\n"));
+
+            // --- Naive Bayes ---
+            System.out.println("\n--- Naive Bayes ---");
+            NaiveBayes naiveBayes = new NaiveBayes();
+            naiveBayes.buildClassifier(trainData);
+
+            Evaluation evalNB = new Evaluation(trainData);
+            evalNB.evaluateModel(naiveBayes, testData);
+
+            System.out.println(evalNB.toSummaryString("Naive Bayes Results:\n======\n", false));
+            System.out.println(evalNB.toClassDetailsString("Naive Bayes Class Details:\n======\n"));
+            System.out.println(evalNB.toMatrixString("Naive Bayes Confusion Matrix:\n======\n"));
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
